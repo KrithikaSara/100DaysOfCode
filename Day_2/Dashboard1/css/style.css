@@ -30,7 +30,7 @@ body {
 .nav-header {
     padding: 33px 25px;
     background-color: #2f4050;
-    background-image: url(./img/header-profile.png);
+    background-image: url(../img/header-profile.png);
 }
 
 .nav-header a {
@@ -51,4 +51,126 @@ a {
 
 .font-bold {
     font-weight: 600;
+}
+
+.dropdown-toggle:hover{
+    text-decoration: none;
+}
+
+.nav-header .text-muted {
+    color: #8095a8 !important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.caret {
+    vertical-align: middle;
+    color: #8095a8 !important;
+}
+
+.logo-element {
+    display: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 18px 0;
+}
+
+.nav > li > a i {
+    margin-right: 6px;
+}
+
+.nav > li > a {
+    color: #a7b1c2;
+    font-weight: 600;
+    padding: 14px 20px 14px 25px;
+    display: block;
+}
+
+.metismenu .fa-angle-left {
+    float: right;
+    line-height: 1.42857;
+}
+
+.navbar-default .nav > li > a:hover,.navbar-default .nav > li > a:hover
+{
+    background-color:#293846;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    border:  medium none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(86, 96, 117, 0.7);
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: 0;
+    list-style: none outside none;
+    padding: 0;
+    position: absolute;
+    text-shadow: none;
+    top: 100%;
+    z-index: 1000;
+}
+
+.nav.nav-second-level.collapse[style] {
+    height: auto !important;
+}
+
+.metismenu .collapse {
+    display: none;
+}
+
+.metismenu .collapse.in{
+    display: block;
+}
+
+
+ul.nav-second-level {
+    background: #293846;
+}
+
+.nav.nav-second-level > li.active{
+    border: none;
+}
+
+.nav-second-level li, .nav-third-level li{
+    border-bottom: none !important;
+}
+
+.nav-second-level li a{
+    padding: 7px 10px 7px 10px;
+    padding-left: 52px;
+}
+
+.nav > li.active > a{
+    color: #ffffff;
+}
+
+.dropdown-menu.show{
+    display: block;
+}
+
+.nav.metismenu .dropdown-menu > li > a{
+    padding: 3px 20px;
+    display: block;
+}
+
+.dropdown-menu > li > a{
+    border-radius: 3px;
+    color: inherit;
+    line-height: 25px;
+    margin: 4px;
+    text-align: left;
+    font-weight: normal;
+    display: block;
+    padding: 3px 20px;
+}
+
+.dropdown-item{
+    width: auto;
 }
