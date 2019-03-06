@@ -8,17 +8,7 @@
     overflow-x: hidden;
 }
 
-html,body {
-    height: 100%;
-}
 
-body {
-    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #2f4050;
-    font-size: 13px;
-    color: #676a6c;
-    overflow-x: hidden;
-}
 
 .nav.metismenu > li {
     display: block;
@@ -291,6 +281,56 @@ ul.nav-second-level {
     
 }
 
+.navbar-top-links li{
+    display: inline-block;
+    align-self: center;
+}
+
+.nav.navbar-right > li > a{
+    color: #999c9e;
+}
+
+.nav.navbar-top-links a{
+    font-size: 14px;
+}
+
+.navbar-top-links li a{
+    padding: 20px 10px;
+    min-height: 50px;
+}
+
+.count-info .label{
+    line-height: 12px;
+    padding: 2px 5px;
+    position: absolute;
+    right: 6px;
+    top: 12px;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.navbar-top-links .dropdown-menu li a{
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.nav.navbar-top-links .dropdown-alerts a{
+    font-size: 12px;
+}
+
+.navbar-top-links .dropdown-menu li{
+    display: block;
+}
+.navbar-top-links li:last-child{
+    margin-right: 30px;
+}
+
+.text-navy{
+    color: #1ab394 !important;
+}
+
 .btn{
     border-radius: 3px;
     font-size: inherit;
@@ -306,6 +346,63 @@ ul.nav-second-level {
     background-color: #18a689;
     border-color: #18a689;
     color: #FFFFFF;
+}
+
+.text-muted{
+    color: #888888 !important;
+}
+
+.m-r-sm{
+    margin-right: 10px;
+}
+
+.dropdown-messages, .dropdown-alerts{
+    padding: 10px;
+}
+
+.navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks, .navbar-top-links .dropdown-alerts{
+    width: 310px;
+    min-width: 0;
+}
+
+.navbar-top-links .dropdown-messages{
+    margin-left: 5px;
+}
+
+.navbar-static-top .dropdown-menu{
+    right: 0;
+    left: auto;
+}
+
+.navbar .dropdown-menu{
+    margin-top: 0;
+}
+
+.feed-element img.rounded-circle, .chat-element img.rounded-circle, 
+.dropdown-messages-box img.rounded-circle{
+    width: 38px;
+    height: 38px;
+}
+
+.feed-element, .media-body, .chat-element{
+    overflow: hidden;
+}
+
+.sidebar-panel .feed-element, .media-body, .sidebar-panel p{
+    font-size: 12px;
+}
+
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #2f4050;
+    font-size: 13px;
+    color: #676a6c;
+    overflow-x: hidden;
 }
 
 @media (min-width: 768px){
@@ -330,5 +427,11 @@ ul.nav-second-level {
         z-index: 2001;
         position: absolute;
         width: 220px;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks, .navbar-top-links .dropdown-alerts{
+        margin-left: auto;
     }
 }
